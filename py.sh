@@ -5,12 +5,14 @@ then
 	if [ $1 != *".py"* ]
 	then
 		vim $1.py
-	else 
+	#elif [ $1 == *".py"* ]
+	else
+	#then 
 		vim $1
 	fi
-elif [ $1  == *"py" ]
-then
-	vim $1.py
+#elif [ $1  == *"py" ]
+#then
+#	vim $1.py
 elif [ ! -f $1.py -o ! -f $1 ]
 then
 	touch $1.py
