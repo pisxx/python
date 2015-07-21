@@ -8,7 +8,7 @@ print "Roosters", 100 - 25 * 3 % 4
 #pisze
 print "Now I will count the eggs:"
 
-print 3 + 2 + 1 - 5 + 4 % 2 -1 / 4 + 6
+print 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4 + 6
 
 print "Is this true that 3 + 2 < 5 - 7?"
 #wyswietli boolean True or False z dzialania
