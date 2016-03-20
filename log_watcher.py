@@ -3,7 +3,8 @@ import os
 import sys
 import pdb
 
-file_name = 'plik'
+file_name = sys.argv[1]
+#file_name = 'plik'
 file_size = os.path.getsize(file_name)
 
 print "Wielkosc pliku to -> %s " % file_size
